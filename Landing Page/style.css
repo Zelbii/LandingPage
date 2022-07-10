@@ -9,7 +9,7 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #1f3f18 16.62%, #ad7063 85.61%);
+  background: linear-gradient(68.15deg, #000000 16.62%, #0a333d 85.61%);
 }
 
 .cabecalho {
@@ -86,11 +86,12 @@ body {
 }
 
 .conteudo-principal-imagem {
-  height: 430px;
+  height: 400px;
   border: 6px solid;
 border-image: url(/img/border-image.png) 25 / 6px / 0px stretch;
-  color: #501e13;
+  color: #1d9b94;
   border-radius: 50%;
+  
 }
 
 .conteudo-secundario {
