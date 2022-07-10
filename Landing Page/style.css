@@ -87,6 +87,10 @@ body {
 
 .conteudo-principal-imagem {
   height: 430px;
+  border: 6px solid;
+border-image: url(/img/border-image.png) 25 / 6px / 0px stretch;
+  color: #501e13;
+  border-radius: 50%;
 }
 
 .conteudo-secundario {
@@ -117,6 +121,7 @@ body {
 .rodape {
     padding: 32px;
     border-top: 0.4px solid #FFF2E7;
+    
 }
 
 .rodape-imagem {
@@ -133,9 +138,11 @@ footer a {
 footer img{
   width: 40px;
   height: 40px;
+  align-items: center;
 }
 
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
